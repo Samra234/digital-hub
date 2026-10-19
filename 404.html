@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found (404) – Digital Kamai Pakistan</title>
+  <meta name="description" content="The page you requested could not be found on Digital Kamai Pakistan.">
+  <link rel="icon" type="image/svg+xml" href="/assets/images/logo.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/responsive.css">
+</head>
+<body>
+
+  <!-- Sticky Header -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="/index.html" class="brand-mark">
+        <img src="/assets/images/logo.svg" alt="Digital Kamai Pakistan" class="brand-logo-img">
+      </a>
+      <nav class="desktop-nav">
+        <a href="/index.html" class="nav-link">Home</a>
+        <a href="/category.html?c=online-business" class="nav-link">Online Business</a>
+        <a href="/category.html?c=freelancing" class="nav-link">Freelancing</a>
+        <a href="/category.html?c=earning-apps" class="nav-link">Earning Apps</a>
+        <a href="/category.html?c=digital-skills" class="nav-link">Digital Skills</a>
+        <a href="/category.html?c=remote-jobs" class="nav-link">Remote Jobs</a>
+        <a href="/category.html?c=ai-tools" class="nav-link">AI Tools</a>
+      </nav>
+      <div class="header-actions">
+        <button type="button" class="action-btn theme-toggle-btn" aria-label="Toggle theme">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
+        <button type="button" class="action-btn menu-toggle" aria-label="Toggle mobile menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" style="padding: 6rem 1.5rem; text-align: center;">
+    <div class="empty-state" style="max-width: 640px; margin: 0 auto;">
+      <div style="font-size: 4rem; font-weight: 800; color: var(--brand-emerald); font-family: var(--font-mono); line-height: 1; margin-bottom: 1rem;">404</div>
+      <h1 class="empty-title" style="font-size: 1.75rem;">Page Not Found</h1>
+      <p class="empty-desc" style="margin-bottom: 2rem;">
+        The article or resource you are looking for does not exist, has been moved, or the link may be outdated.
+      </p>
+      
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <a href="/index.html" class="btn-primary">Return to Home</a>
+        <a href="/search.html" class="btn-secondary">Search Articles</a>
+        <a href="/category.html?c=freelancing" class="btn-secondary">Freelance Guides</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>&copy; 2026 Digital Kamai Pakistan. All rights reserved.</div>
+        <div><a href="/index.html" style="color: var(--brand-emerald);">Return to Home</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module">
+    import { initTheme } from '/assets/js/theme.js';
+    import { initNavigation } from '/assets/js/navigation.js';
+    initTheme();
+    initNavigation();
+  </script>
+</body>
+</html>

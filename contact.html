@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us – Digital Kamai Pakistan</title>
+  <meta name="description" content="Get in touch with the editorial team at Digital Kamai Pakistan for feedback, partnerships, and correction requests.">
+  
+  <meta property="og:site_name" content="Digital Kamai Pakistan">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contact Us – Digital Kamai Pakistan">
+  <meta property="og:description" content="Get in touch with the editorial team at Digital Kamai Pakistan for feedback, partnerships, and correction requests.">
+  <meta property="og:image" content="/assets/images/hero.jpg">
+
+  <link rel="canonical" href="https://digitalkamai.pk/contact.html">
+  <link rel="icon" type="image/svg+xml" href="/assets/images/logo.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/responsive.css">
+</head>
+<body>
+
+  <!-- Sticky Header -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="/index.html" class="brand-mark" aria-label="Digital Kamai Pakistan Home">
+        <img src="/assets/images/logo.svg" alt="Digital Kamai Pakistan" class="brand-logo-img">
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary Navigation">
+        <a href="/index.html" class="nav-link">Home</a>
+        <a href="/category.html?c=online-business" class="nav-link">Online Business</a>
+        <a href="/category.html?c=freelancing" class="nav-link">Freelancing</a>
+        <a href="/category.html?c=earning-apps" class="nav-link">Earning Apps</a>
+        <a href="/category.html?c=digital-skills" class="nav-link">Digital Skills</a>
+        <a href="/category.html?c=remote-jobs" class="nav-link">Remote Jobs</a>
+        <a href="/category.html?c=ai-tools" class="nav-link">AI Tools</a>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="action-btn theme-toggle-btn" aria-label="Toggle theme" title="Toggle theme">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
+        <a href="/index.html#latestArticles" class="btn-primary">Explore Articles</a>
+        <button type="button" class="action-btn menu-toggle" aria-label="Toggle mobile menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="breadcrumbs-bar">
+    <div class="container">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="/index.html">Home</a>
+        <span class="breadcrumb-separator" aria-hidden="true">/</span>
+        <span aria-current="page">Contact</span>
+      </nav>
+    </div>
+  </div>
+
+  <main class="container" style="max-width: 820px; padding: 3.5rem 1.5rem 5rem;">
+    <h1 class="hero-title" style="margin-bottom: 0.75rem;">Contact Editorial Desk</h1>
+    <p class="hero-description" style="margin-bottom: 2.5rem;">
+      We welcome questions, editorial suggestions, fact-checking corrections, and educational inquiries.
+    </p>
+
+    <div style="display: grid; grid-template-columns: 1fr; gap: 2rem;">
+      <div style="background-color: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 2rem;">
+        <form id="contactForm" novalidate>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.25rem;">
+            <div>
+              <label for="contactName" style="display: block; font-size: 0.875rem; font-weight: 600; margin-bottom: 0.4rem; color: var(--text-main);">Full Name</label>
+              <input type="text" id="contactName" class="filter-select" style="width: 100%; padding: 0.65rem 0.85rem;" placeholder="e.g., Hamza Tariq" required>
+            </div>
+            <div>
+              <label for="contactEmail" style="display: block; font-size: 0.875rem; font-weight: 600; margin-bottom: 0.4rem; color: var(--text-main);">Email Address</label>
+              <input type="email" id="contactEmail" class="filter-select" style="width: 100%; padding: 0.65rem 0.85rem;" placeholder="e.g., hamza@example.com" required>
+            </div>
+          </div>
+
+          <div style="margin-bottom: 1.25rem;">
+            <label for="contactSubject" style="display: block; font-size: 0.875rem; font-weight: 600; margin-bottom: 0.4rem; color: var(--text-main);">Inquiry Type</label>
+            <select id="contactSubject" class="sort-select" style="width: 100%; padding: 0.65rem 0.85rem;">
+              <option value="general">General Question</option>
+              <option value="correction">Fact-Check or Correction Request</option>
+              <option value="scam_report">Report an Online Scam / Fraudulent App</option>
+              <option value="partnership">Educational Partnership</option>
+            </select>
+          </div>
+
+          <div style="margin-bottom: 1.5rem;">
+            <label for="contactMessage" style="display: block; font-size: 0.875rem; font-weight: 600; margin-bottom: 0.4rem; color: var(--text-main);">Your Message</label>
+            <textarea id="contactMessage" class="filter-select" rows="5" style="width: 100%; padding: 0.65rem 0.85rem; font-family: inherit;" placeholder="Please describe your question or provide links to the article you are referencing..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn-primary" style="width: 100%; padding: 0.75rem;">Send Message</button>
+          
+          <div id="contactFormStatus" style="margin-top: 1rem; font-size: 0.875rem; font-weight: 500;"></div>
+        </form>
+      </div>
+
+      <div style="background-color: var(--bg-surface-subtle); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.5rem;">
+        <h3 style="font-size: 1rem; font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem;">Deployment Note for Static Hosting</h3>
+        <p style="font-size: 0.8125rem; color: var(--text-muted); line-height: 1.5;">
+          When deploying this website to <strong>Netlify</strong>, simply add <code>data-netlify="true"</code> and <code>name="contact"</code> attributes to the <code>&lt;form&gt;</code> tag to receive form submissions instantly in your Netlify dashboard with zero backend code.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="/index.html" class="brand-mark">
+            <img src="/assets/images/logo.svg" alt="Digital Kamai Pakistan" class="brand-logo-img">
+          </a>
+          <p class="footer-brand-desc">
+            Independent educational resource empowering Pakistani professionals with verified knowledge in freelancing, digital entrepreneurship, and remote careers.
+          </p>
+        </div>
+        <div>
+          <div class="footer-col-title">Categories</div>
+          <ul class="footer-links">
+            <li><a href="/category.html?c=online-business" class="footer-link">Online Business</a></li>
+            <li><a href="/category.html?c=freelancing" class="footer-link">Freelancing</a></li>
+            <li><a href="/category.html?c=earning-apps" class="footer-link">Earning Apps</a></li>
+            <li><a href="/category.html?c=digital-skills" class="footer-link">Digital Skills</a></li>
+            <li><a href="/category.html?c=remote-jobs" class="footer-link">Remote Jobs</a></li>
+            <li><a href="/category.html?c=ai-tools" class="footer-link">AI Tools</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">Editorial &amp; Trust</div>
+          <ul class="footer-links">
+            <li><a href="/about.html" class="footer-link">About Digital Kamai</a></li>
+            <li><a href="/contact.html" class="footer-link">Contact &amp; Inquiries</a></li>
+            <li><a href="/disclaimer.html" class="footer-link">Earnings Disclaimer</a></li>
+            <li><a href="/privacy-policy.html" class="footer-link">Privacy Policy</a></li>
+            <li><a href="/terms.html" class="footer-link">Terms and Conditions</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">Official Resources</div>
+          <ul class="footer-links">
+            <li><a href="https://www.sbp.org.pk" target="_blank" rel="noopener noreferrer" class="footer-link">State Bank of Pakistan</a></li>
+            <li><a href="https://fbr.gov.pk" target="_blank" rel="noopener noreferrer" class="footer-link">Federal Board of Revenue</a></li>
+            <li><a href="https://www.secp.gov.pk" target="_blank" rel="noopener noreferrer" class="footer-link">SECP Pakistan</a></li>
+            <li><a href="https://complaint.fia.gov.pk" target="_blank" rel="noopener noreferrer" class="footer-link">FIA Cyber Crime Wing</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 Digital Kamai Pakistan. All rights reserved. Educational and informational purposes only.</div>
+        <div>Designed for static hosting on Netlify, Vercel, or GitHub Pages.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module">
+    import { initTheme } from '/assets/js/theme.js';
+    import { initNavigation } from '/assets/js/navigation.js';
+
+    initTheme();
+    initNavigation();
+
+    const form = document.getElementById('contactForm');
+    const nameInput = document.getElementById('contactName');
+    const emailInput = document.getElementById('contactEmail');
+    const msgInput = document.getElementById('contactMessage');
+    const status = document.getElementById('contactFormStatus');
+
+    form?.addEventListener('submit', (e) => {
+      e.preventDefault();
+      if (!nameInput.value.trim() || !emailInput.value.trim() || !msgInput.value.trim()) {
+        status.textContent = 'Please fill out all required fields.';
+        status.style.color = 'var(--accent-red)';
+        return;
+      }
+
+      status.textContent = 'Thank you! Your message has been received. Our editorial team reviews submissions within 2 business days.';
+      status.style.color = 'var(--brand-emerald)';
+      form.reset();
+    });
+  </script>
+</body>
+</html>
