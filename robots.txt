@@ -5,4 +5,4 @@ Disallow: /admin/
 Disallow: /drafts/
 
 # Sitemap location
-Sitemap: https://digitalkamai.pk/sitemap.xml
+Sitemap: https://digitalkamaipak.netlify.app/sitemap.xml
